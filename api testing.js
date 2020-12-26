@@ -112,8 +112,6 @@ function myFunction() {
            $(".critical").append(critical);
            var deaths  = data.deaths
            $(".deaths").append(deaths);
-           var recovered  = data.recovered
-           $(".recovered").append(recovered);
            var todayCases  = data.todayCases
            $(".todayCases").append(todayCases);
            var todayDeaths  = data.todayDeaths
@@ -134,6 +132,7 @@ function clearBox()
    window.location.reload();
 }
 
+           
 
 
 
