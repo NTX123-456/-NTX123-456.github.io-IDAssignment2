@@ -98,7 +98,8 @@ function myFunction() {
        var data = JSON.parse(this.response);
        if (request.status >= 200 && request.status < 400) {
            console.log(data);
-           
+           var population = data.population
+           $(".population").append(population);
            var active = data.active
            $(".active").append(active);
            var activePerOneMillion = data.activePerOneMillion
