@@ -101,6 +101,22 @@ function myFunction() {
            
            var active = data.active
            $(".active").append(active);
+           var activePerOneMillion = data.activePerOneMillion
+           $(".activePerOneMillion").append(activePerOneMillion);
+           var totalcases = data.cases
+           $(".totalcases").append(totalcases);
+           var totalcasesPerOneMillion  = data.casesPerOneMillion
+           $(".totalcasesPerOneMillion").append(totalcasesPerOneMillion);
+           var critical  = data.critical
+           $(".critical").append(critical);
+           var deaths  = data.deaths
+           $(".deaths").append(deaths);
+           var recovered  = data.recovered
+           $(".recovered").append(recovered);
+           var todayCases  = data.todayCases
+           $(".todayCases").append(todayCases);
+           var todayDeaths  = data.todayDeaths
+           $(".todayDeaths").append(todayDeaths);
           
        } else {
            console.log(input1.value);
