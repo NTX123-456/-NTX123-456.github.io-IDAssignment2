@@ -64,6 +64,13 @@ function changeurl4(){
 function changeurl5(){
    location.replace("https://www.channelnewsasia.com/")
 }
+function changeurl6(){
+   location.replace("https://www.tracetogether.gov.sg/")
+}
+function changeurl7(){
+   location.replace("https://www.moh.gov.sg/policies-and-legislation/covid-19-(temporary-measures)-(control-order)-regulations")
+}
+
 
 var api = "https://corona.lmao.ninja/v2/countries/";
 var apiend = "?yesterday'?yesterday=true&strict=true&query";
