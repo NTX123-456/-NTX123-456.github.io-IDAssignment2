@@ -61,26 +61,15 @@ function changeurl3(){
 function changeurl4(){
    location.replace("https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public")
 }
-
+function changeurl5(){
+   location.replace("https://www.channelnewsasia.com/")
+}
 
 var api = "https://corona.lmao.ninja/v2/countries/";
 var apiend = "?yesterday'?yesterday=true&strict=true&query";
 var input;
 
 
-//$.getJSON("https://corona.lmao.ninja/v2/countries/Singapore?yesterday=true&strict=true&query",
-   //function(data){
-   //console.log(data);
-   //var active = data.active
-   //$(".active").append(active);
-   //}
-//);
-//function buttonsetup(){
-//var button = document.getElementbyId("submits");
-//input = document.getElementbyId("country");
-//var url = api + input.value() + apiend;
-  
-//}
 function myFunction() {
 
    var request;
