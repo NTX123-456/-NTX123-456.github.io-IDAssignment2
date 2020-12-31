@@ -1,0 +1,15 @@
+body {
+  padding-top: 5rem;
+}
+.cont {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.SpecificContinent{
+   text-align:center;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+
