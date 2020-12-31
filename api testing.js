@@ -70,6 +70,9 @@ function changeurl6(){
 function changeurl7(){
    location.replace("https://www.moh.gov.sg/policies-and-legislation/covid-19-(temporary-measures)-(control-order)-regulations")
 }
+function changeurl8(){
+   location.replace("https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19#:~:text=symptoms")
+}
 
 
 var api = "https://corona.lmao.ninja/v2/countries/";
