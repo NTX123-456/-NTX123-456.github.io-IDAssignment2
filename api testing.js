@@ -25,22 +25,23 @@ $.getJSON("https://api.apify.com/v2/key-value-stores/yaPbKe9e5Et61bl7W/records/L
 
 
 );
-$.getJSON("https://api.covid19api.com/summary",
+$.getJSON("https://corona.lmao.ninja/v2/all?yesterday",
    function(data){
    console.log(data);
-   var updated = data.Global.TotalConfirmed
-   $(".updated").append(updated);
-   var NewConfirmed = data.Global.NewConfirmed
-   $(".NewConfirmed").append(NewConfirmed);
-   var NewDeaths = data.Global.NewDeaths
-   $(".NewDeaths").append(NewDeaths);
-   var criticalHospitalized = data.Global.criticalHospitalized
-   $(".criticalHospitalized").append(criticalHospitalized);
-   var NewRecovered = data.Global.NewRecovered
-   $(".NewRecovered").append(NewRecovered);
-   var TotalRecovered = data.Global.TotalRecovered
-   $(".TotalRecovered").append(TotalRecovered);
+   var affectedCountries = data.affectedCountries
+   $(".affectedCountries").append(affectedCountries);
+   var cases = data.cases
+   $(".cases").append(cases);
+   var todayCases = data.todayCases
+   $(".todayCases").append(todayCases);
+   var deaths = data.deaths
+   $(".deaths").append(deaths);
+   var todayDeaths = data.todayDeaths
+   $(".todayDeaths").append(todayDeaths);
+   var recovered = data.recovered
+   $(".recovered2").append(recovered);
   
+
 
 
    }
