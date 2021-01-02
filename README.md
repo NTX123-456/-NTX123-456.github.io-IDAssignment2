@@ -6,4 +6,7 @@ daily cases or total cases of covid-19 cases in Singapore or other countries and
 
 Outside Code/ External code used:
 For the code for svg images: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/image
-For the code for requesting query for api: https://stackoverflow.com/questions/52137425/api-query-with-user-input`
+
+For the code for requesting query for api: https://stackoverflow.com/questions/52137425/api-query-with-user-input
+
+Websites used:
