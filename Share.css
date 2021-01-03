@@ -1,0 +1,21 @@
+body {
+  padding-top: 5rem;
+}
+input{
+  padding: 10px;
+  height: 50px;
+}
+textarea{
+  padding: 20px;
+  height: 100px;
+}
+
+button{
+  padding: 10px;
+  height: 50px;
+  position: absolute;
+  margin-top:50px;
+}
+fieldset{
+  margin-bottom:20px;
+}
