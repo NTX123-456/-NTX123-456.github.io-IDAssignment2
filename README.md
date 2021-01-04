@@ -11,4 +11,16 @@ daily cases or total cases of covid-19 cases in Singapore or other countries and
 <p>For the code for requesting query for api: https://stackoverflow.com/questions/52137425/api-query-with-user-input</p>
 
 
+<h3>Bootstrap used for this assignment</h3>
+https://getbootstrap.com/
+
+<h3>For (index.html page)<h3>
+Carousel format used: https://getbootstrap.com/docs/5.0/examples/carousel/
+
+<h3>For (MoreOptions and Share page)</h3>
+Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-template/
+
+
+
+
 Websites used:
