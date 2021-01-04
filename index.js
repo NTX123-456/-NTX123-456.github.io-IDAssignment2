@@ -111,11 +111,11 @@ function myFunction() {
            var critical  = data.critical
            $(".critical").append(critical);
            var deaths  = data.deaths
-           $(".deaths").append(deaths);
+           $(".deaths2").append(deaths);
            var todayCases  = data.todayCases
-           $(".todayCases").append(todayCases);
+           $(".todayCases2").append(todayCases);
            var todayDeaths  = data.todayDeaths
-           $(".todayDeaths").append(todayDeaths);
+           $(".todayDeaths2").append(todayDeaths);
           
        } else {
            console.log(input1.value);
