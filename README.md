@@ -32,4 +32,18 @@ Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-templa
 <li>JavaScript</li>
 <li>Html</li>
 <li>Bootstrap</li>
+<li>CSS</li>
 
+<h3>Api used:</h3>
+
+<h4>Resource pages</h4>
+<li>https://covid-19-apis.postman.com/</li>
+<li>https://documenter.getpostman.com/view/11144369/Szf6Z9B3?version=latest</li>
+<li>https://apify.com/tugkan/covid-sg</li>
+
+<h4>Link for api request</h4>
+<li>https://api.apify.com/v2/key-value-stores/yaPbKe9e5Et61bl7W/records/LATEST?disableRedirect=true</li>
+<li>https://corona.lmao.ninja/v2/countries/:query?yesterday</li>
+<li>https://corona.lmao.ninja/v2/countries/:query?yesterday=true&strict=true&query</li>
+<li>https://corona.lmao.ninja/v2/continents/:query?yesterday&strict</li>
+<li></li>
