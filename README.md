@@ -1,5 +1,5 @@
 # -NTX123-456.github.io-IDAssignment2
-<h1>Webpage on ID assignment 2<h1>
+<h1>Webpage on ID assignment 2 (by Ng Tung Xuan)<h1>
 <h2>Motive of this website:<h2> 
 <p>To allow Users in Singapore to get information regarding Covid-19 and stay updated on the conditions of 
 other countries affected by covid-19 as well as Singapore. This is to help users extract more information more easily for example, the
