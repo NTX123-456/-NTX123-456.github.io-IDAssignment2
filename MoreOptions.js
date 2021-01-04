@@ -77,7 +77,7 @@ function myFunction2() {
             var cases = data[0].cases
             $(".cases1").append(cases)
             var continent = data[0].continent
-            $(".continent").append(continent)
+            $(".continent1").append(continent)
             
             
             
