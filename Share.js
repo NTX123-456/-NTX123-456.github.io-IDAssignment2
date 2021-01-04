@@ -3,7 +3,10 @@ const inpValue = document.getElementById("inpValue");
 const btnsubmit = document.getElementById("btnsubmit");
 const Output = document.getElementById("Output");
 
-localStorage.removeItem("JACk")
+localStorage.removeItem("dadadadada")
+localStorage.removeItem("dasdasdada")
+localStorage.removeItem("adads")
+localStorage.removeItem("dadadsadada")
 btnsubmit.onclick = function(){
     const key = inpKey.value;
     const value = inpValue.value;
@@ -21,4 +24,5 @@ for (let i = 0; i< localStorage.length; i++){
     const value = localStorage.getItem(key);
 
     Output.innerHTML += `${key}: ${value}<br/ >`;
+    
 }
