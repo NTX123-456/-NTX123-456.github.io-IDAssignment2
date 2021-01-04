@@ -76,7 +76,8 @@ function myFunction2() {
             $(".activePerOneMillion1").append(activePerOneMillion)
             var cases = data[0].cases
             $(".cases1").append(cases)
-            
+            var continent = data[0].continent
+            $(".continent1").append(continent)
             
             
             
