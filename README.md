@@ -18,7 +18,7 @@ daily cases or total cases of covid-19 cases in Singapore or other countries and
 <h3>Bootstrap used for this assignment</h3>
 https://getbootstrap.com/
 
-<h3>For (index.html page)<h3>
+<h3>For (index.html page)</h3>
 Carousel format used: https://getbootstrap.com/docs/5.0/examples/carousel/
 
 <h3>For (MoreOptions and Share page)</h3>
