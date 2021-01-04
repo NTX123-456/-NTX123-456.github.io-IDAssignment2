@@ -46,4 +46,4 @@ Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-templa
 <li>https://corona.lmao.ninja/v2/countries/:query?yesterday</li>
 <li>https://corona.lmao.ninja/v2/countries/:query?yesterday=true&strict=true&query</li>
 <li>https://corona.lmao.ninja/v2/continents/:query?yesterday&strict</li>
-<li></li>
+<li>https://corona.lmao.ninja/v2/all?yesterday</li>
