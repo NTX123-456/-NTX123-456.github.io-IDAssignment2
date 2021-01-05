@@ -10,16 +10,12 @@ daily cases or total cases of covid-19 cases in Singapore or other countries and
 between two countries. There is also another feature which allows users to share their comments or give good advice to other users on how to better prepare and combat against the covid-19 virus.</p>
 
 
-<h3>Outside Code/ External code used/References Taken from the internet:</h3>
-<li>For the code for svg images: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/image</li>
-
-<li>For the code for requesting query for api: https://stackoverflow.com/questions/52137425/api-query-with-user-input</li>
-
-<li>Making a localStorage: https://www.youtube.com/watch?v=k8yJCeuP6I8</li>
-
-<li>Learning how to request for a public api: https://www.youtube.com/watch?v=InoAIgBZIEA&t=515s</li>
 
 
+
+<h2>Design Process:</h2>
+<h4>This Website is made to allow users in Singapore or other users from other countries to be able to access Covid-19 data easily. For example if users want to find out about the total amount of cases around the world, the amount of deaths of a particular country, or a continent, they can do so easily by just entering the country or continent they want in the search bar and the results will be shown. This idea came to me as we are now in this difficult period where covid-19 has affected most of the people around the world, hence I think that it is important for people to be prepared information wise so that they can protect themselves effectively against covid-19. Another motive of this website is also to allow users to find out more about covid-19. For example ways to protect themselves or the measures put in place in Singapore against covid-19. I also decided to add a new feature to the website that allows users to share their comments or advices on covid-19 by creating a local storage to store the user comments then displaying it so that other users can also see it.</h4>
+  
 <h3>Bootstrap used for this assignment</h3>
 https://getbootstrap.com/
 
@@ -29,9 +25,13 @@ Carousel format used: https://getbootstrap.com/docs/5.0/examples/carousel/
 <h3>For (MoreOptions and Share page)</h3>
 Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-template/
 
-<h2>Design Process:</h2>
-<h4>This Website is made to allow users in Singapore or other users from other countries to be able to access Covid-19 data easily. For example if users want to find out about the total amount of cases around the world, the amount of deaths of a particular country, or a continent, they can do so easily by just entering the country or continent they want in the search bar and the results will be shown. This idea came to me as we are now in this difficult period where covid-19 has affected most of the people around the world, hence I think that it is important for people to be prepared information wise so that they can protect themselves effectively against covid-19. Another motive of this website is also to allow users to find out more about covid-19. For example ways to protect themselves or the measures put in place in Singapore against covid-19. I also decided to add a new feature to the website that allows users to share their comments or advices on covid-19 by creating a local storage to store the user comments then displaying it so that other users can also see it.</h4>
-  
+<h2>Test cases</h2>
+1. For the Selecting Multiple countries feature, users must select 2 countries, not less, not more or else the results will not be shown
+
+2. 
+
+<h1>Credits</h1>
+
 <h3>Technologies used:</h3>
 <li>Jquery</li>
 <li>JavaScript</li>
@@ -71,6 +71,14 @@ Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-templa
 <li>https://coolbackgrounds.io/images/backgrounds/index/aqua-d9b59c89.png</li>
 <li>https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2020/02/12/16/17/coronovirus-8col.jpg</li>
 
-<h2>Test cases</h2>
-1. For the Selecting Multiple countries feature, users must select 2 countries, not less, not more or else the results will not be shown
-2. 
+<h3>Outside Code/ External code used/References Taken from the internet:</h3>
+<li>For the code for svg images: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/image</li>
+
+<li>For the code for requesting query for api: https://stackoverflow.com/questions/52137425/api-query-with-user-input</li>
+
+<li>Making a localStorage: https://www.youtube.com/watch?v=k8yJCeuP6I8</li>
+
+<li>Learning how to request for a public api: https://www.youtube.com/watch?v=InoAIgBZIEA&t=515s</li>
+
+
+
