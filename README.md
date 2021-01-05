@@ -4,6 +4,12 @@
 <p>To allow Users in Singapore to get information regarding Covid-19 and stay updated on the conditions of 
 other countries affected by covid-19 as well as Singapore. This is to help users extract more information more easily for example, the
 daily cases or total cases of covid-19 cases in Singapore or other countries and how to protect themselves against covid-19 as well.<p>
+ 
+<h2>Useful Links</h2>
+<li> Github Repository for this assignment: https://github.com/NTX123-456/NTX123-456.github.io-IDAssignment2 </li>
+<li> Github pages that this website is hosted on (Mainpage): https://ntx123-456.github.io/NTX123-456.github.io-IDAssignment2/ </li>
+<li> MoreOptions page: https://ntx123-456.github.io/NTX123-456.github.io-IDAssignment2/MoreOptions.html </li>
+<li> Sharing page: https://ntx123-456.github.io/NTX123-456.github.io-IDAssignment2/Share.html </li>
 
 <h2>Features of this website:</h2>
 <p>Users can find and extract covid-19 data such as the total amount of cases or deaths of a particular country, or a particular continent, or they can choose to compare the data
