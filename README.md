@@ -77,5 +77,10 @@ Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-templa
 
 <li>Learning how to request for a public api: https://www.youtube.com/watch?v=InoAIgBZIEA&t=515s</li>
 
+<h3>Websites/applications that helped me to complete this assignment</h3>
+1. Github
+2. Postman
+3. Youtube
+4. Stack Overflow
 
 
