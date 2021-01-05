@@ -1,9 +1,14 @@
 # NTX123-456.github.io-IDAssignment2
-<h1>Webpage on ID assignment 2 (by Ng Tung Xuan)<h1>
-<h2>Motive of this website:<h2> 
+<h1>Webpage on ID assignment 2 (by Ng Tung Xuan)</h1>
+<h2>Motive of this website:</h2> 
 <p>To allow Users in Singapore to get information regarding Covid-19 and stay updated on the conditions of 
 other countries affected by covid-19 as well as Singapore. This is to help users extract more information more easily for example, the
 daily cases or total cases of covid-19 cases in Singapore or other countries and how to protect themselves against covid-19 as well.<p>
+
+<h2>Features of this website:</h2>
+<p>Users can find and extract covid-19 data such as the total amount of cases or deaths of a particular country, or a particular continent, or they can choose to compare the data
+between two countries. There is also another feature which allows users to share their comments or give good advice to other users on how to better prepare and combat against the covid-19 virus.</p>
+
 
 <h3>Outside Code/ External code used/References Taken from the internet:</h3>
 <li>For the code for svg images: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/image</li>
