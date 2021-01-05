@@ -14,9 +14,8 @@ between two countries. There is also another feature which allows users to share
  
 
 <h2>Test cases</h2>
-1. For the Selecting Multiple countries feature, users must select 2 countries, not less, not more or else the results will not be shown
-
-2. 
+<li>1. For the Selecting Multiple countries feature, users must select 2 countries, not less, not more or else the results will not be shown</li>
+ 
 
 <h2>Deployment Process: </h2>
 <h4>For the website hosted on Github pages and the website that is hosted locally, the differences are the links to the various bootstrap CSS and Js core codes. For the locally hosted website a more specific link will be used to access the css and js core codes.
