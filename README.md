@@ -38,6 +38,7 @@ Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-templa
 <li>Html</li>
 <li>Bootstrap</li>
 <li>CSS</li>
+<li>JSON</li>
 
 <h3>Api used:</h3>
 
