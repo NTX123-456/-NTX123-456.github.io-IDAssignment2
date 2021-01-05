@@ -70,3 +70,7 @@ Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-templa
 <li>https://www.orfonline.org/wp-content/uploads/2020/04/Singapores.jpg</li>
 <li>https://coolbackgrounds.io/images/backgrounds/index/aqua-d9b59c89.png</li>
 <li>https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2020/02/12/16/17/coronovirus-8col.jpg</li>
+
+<h2>Test cases</h2>
+1. For the Selecting Multiple countries feature, users must select 2 countries, not less, not more or else the results will not be shown
+2. 
