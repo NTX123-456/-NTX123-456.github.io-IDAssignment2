@@ -11,12 +11,23 @@ between two countries. There is also another feature which allows users to share
 
 <h2>Design Process:</h2>
 <h4>This Website is made to allow users in Singapore or other users from other countries to be able to access Covid-19 data easily. For example if users want to find out about the total amount of cases around the world, the amount of deaths of a particular country, or a continent, they can do so easily by just entering the country or continent they want in the search bar and the results will be shown. This idea came to me as we are now in this difficult period where covid-19 has affected most of the people around the world, hence I think that it is important for people to be prepared information wise so that they can protect themselves effectively against covid-19. Another motive of this website is also to allow users to find out more about covid-19. For example ways to protect themselves or the measures put in place in Singapore against covid-19. I also decided to add a new feature to the website that allows users to share their comments or advices on covid-19 by creating a local storage to store the user comments then displaying it so that other users can also see it.</h4>
-  
+ 
 
 <h2>Test cases</h2>
 1. For the Selecting Multiple countries feature, users must select 2 countries, not less, not more or else the results will not be shown
 
 2. 
+
+<h2>Deployment Process: </h2>
+<h4>For the website hosted on Github pages and the website that is hosted locally, the differences are the links to the various bootstrap CSS and Js core codes. For the locally hosted website a more specific link will be used to access the css and js core codes.
+  
+<h2>How to request for api</h2>
+<li>1. Find the most suitable api that you want to use for your website/application</li>
+<li>2. Test your api on postman to see whether it works or not, if it does not work, find another suitable api to use</li>
+<li>3. There are many ways to request for an api, but the way I used is the JSON way, but there are other ways to request for api such as fetch</li>
+
+<h2>How did I do the layout for the website</h2>
+Most of the layout of this website was taken from a bootstrap template, the templates and links to them can be found at the credits section.
 
 <h1>Credits</h1>
 
