@@ -9,13 +9,17 @@ daily cases or total cases of covid-19 cases in Singapore or other countries and
 <p>Users can find and extract covid-19 data such as the total amount of cases or deaths of a particular country, or a particular continent, or they can choose to compare the data
 between two countries. There is also another feature which allows users to share their comments or give good advice to other users on how to better prepare and combat against the covid-19 virus.</p>
 
-
-
-
-
 <h2>Design Process:</h2>
 <h4>This Website is made to allow users in Singapore or other users from other countries to be able to access Covid-19 data easily. For example if users want to find out about the total amount of cases around the world, the amount of deaths of a particular country, or a continent, they can do so easily by just entering the country or continent they want in the search bar and the results will be shown. This idea came to me as we are now in this difficult period where covid-19 has affected most of the people around the world, hence I think that it is important for people to be prepared information wise so that they can protect themselves effectively against covid-19. Another motive of this website is also to allow users to find out more about covid-19. For example ways to protect themselves or the measures put in place in Singapore against covid-19. I also decided to add a new feature to the website that allows users to share their comments or advices on covid-19 by creating a local storage to store the user comments then displaying it so that other users can also see it.</h4>
   
+
+<h2>Test cases</h2>
+1. For the Selecting Multiple countries feature, users must select 2 countries, not less, not more or else the results will not be shown
+
+2. 
+
+<h1>Credits</h1>
+
 <h3>Bootstrap used for this assignment</h3>
 https://getbootstrap.com/
 
@@ -24,13 +28,6 @@ Carousel format used: https://getbootstrap.com/docs/5.0/examples/carousel/
 
 <h3>For (MoreOptions and Share page)</h3>
 Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-template/
-
-<h2>Test cases</h2>
-1. For the Selecting Multiple countries feature, users must select 2 countries, not less, not more or else the results will not be shown
-
-2. 
-
-<h1>Credits</h1>
 
 <h3>Technologies used:</h3>
 <li>Jquery</li>
