@@ -93,4 +93,9 @@ Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-templa
 <li>3. Youtube </li>
 <li>4. Stack Overflow </li>
 
+<h3>Tools used for automated testing process</h3>
+<li>W3 HTML Validator: https://validator.w3.org/</li>
+<li>W3 CSS Validator: https://jigsaw.w3.org/css-validator/</li>
+<li>W3 Link Checker: https://validator.w3.org/checklink</li>
+
 
