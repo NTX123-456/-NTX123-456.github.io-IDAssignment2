@@ -47,7 +47,7 @@ function changeurl4(){
    location.replace("https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public")
 }
 function changeurl5(){
-   location.replace("https://www.channelnewsasia.com/")
+   location.replace("https://www.channelnewsasia.com/news/topics/coronavirus-covid-19?cid=cna-sghome_covid19_outbreak_desktop_11032020_cna")
 }
 function changeurl6(){
    location.replace("https://www.tracetogether.gov.sg/")
