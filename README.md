@@ -57,7 +57,7 @@ https://getbootstrap.com/
 <h3>For (index.html page)</h3>
 Carousel format used: https://getbootstrap.com/docs/5.0/examples/carousel/
 
-<h3>For (MoreOptions and Share page)</h3>
+<h3>For (MoreOptions and Storing page)</h3>
 Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-template/
 
 <h3>Technologies used:</h3>
