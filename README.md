@@ -32,6 +32,7 @@ Test if user input for local storage can be displayed | Key in data in the input
 Test if webpage is responsive when changed to mobile web version |Load webpage using a mobile phone and observe if there are any significant changes| Webpage is resized to suit mobile web users | Most of the webpage is resized properly,with a few images and input boxes that are too big that had to be resized accordingly. However for the main page when it is switched to the mobile version, the navigation bar is blocking some of the content in the carousel slider|Fail|  
 |Test if all the hyperlinks can be accessed, ensure that there are no dead links in the website as well|Click on every hyperlink and check if it goes to the specified location|Hyperlinks bring user to intended location|All Hyperlinks are workable and brings user to the correct location|Pass|
 Test if there are no errors in html/css codes using W3 html Validator and W3 css jigsaw validator|Paste links to all pages of the website in the W3 Html/Css validator to perform auto checking|No errors are surfaced or all errors are fixed|There are a few errors that came up in the html but were fixed, however for the css codes there was many errors found in the bootstrap css code|Fail|
+Test if 
 
  
 <h2>Future features that could be added</h2>
@@ -117,5 +118,6 @@ Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-templa
 <li>W3 HTML Validator: https://validator.w3.org/</li>
 <li>W3 CSS Validator: https://jigsaw.w3.org/css-validator/</li>
 <li>W3 Link Checker: https://validator.w3.org/checklink</li>
+<li>Api Validator: https://www.postman.com/</li>
 
 
