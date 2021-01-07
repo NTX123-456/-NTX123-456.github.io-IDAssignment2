@@ -2,10 +2,6 @@ body {
   padding-top: 5rem;
   background-image: url('https://coolbackgrounds.io/images/backgrounds/index/aqua-d9b59c89.png');
 }
-input{
-  padding: 10px;
-  height: 50px;
-}
 textarea{
   padding: 20px;
   height: 100px;
@@ -16,12 +12,12 @@ button{
   position: absolute;
   margin-top:50px;
 }
-fieldset{
-  margin-bottom:20px;
+.navbar {
+  margin-bottom: 20px;
 }
 @media only screen and (max-width: 600px) {
  .button {
-    position:relative;
+    position:static;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -29,3 +25,4 @@ fieldset{
     height: 100%
   }
 }
+
