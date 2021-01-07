@@ -28,8 +28,8 @@ daily cases or total cases of covid-19 cases in Singapore or other countries and
 
 Test | Test step | Expected Result | Actual Result | Pass/Fail |
 ------------ | ------------- | ------------- | -------------| ------------- |
-Test if user input for local storage can be displayed | Key in data in the input box and submit and check for display |          |           |        |
-Content column 1 | Content column 2         |          |        |
+Test if user input for local storage can be displayed | Key in data in the input box and submit and check for display | Display is shown | Pass |        |
+Content column 1 |      |          |        |
 
 
  
