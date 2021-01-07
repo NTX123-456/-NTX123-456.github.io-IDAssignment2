@@ -4,8 +4,8 @@ body {
 }
 .cont {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 0;
+  margin-left: 0;
 }
 .navbar {
   margin-bottom: 20px;
