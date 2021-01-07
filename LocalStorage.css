@@ -15,11 +15,7 @@ button{
 .navbar {
   margin-bottom: 20px;
 }
-@media only screen and (max-width: 600px) {
- .button {
-    position:static;
-  }
-}
+
 @media only screen and (max-width: 600px) {
  .textarea {
     height: 100%
