@@ -21,8 +21,13 @@ between two countries. There is also another feature which allows users to share
 
 <h2>Test cases</h2>
 <li>1. For the Selecting Multiple countries feature, users must select 2 countries, not less, not more or else the results will not be shown</li>
+<li>2. Everytime a user has finished searching for a feature, they must reset the page using the reset button provided in order to prevent extra appending of api data to the html container </li>
+<li> For the historical data feature, to access results users have to inspect the page and go to the console and access the array to see it as the results may be too many to display properly, for example if a user searches for 30 days, it would be tedious to display all 30 days. </li>
  
-
+<h2>Future features that could be added</h2>
+<li>One feature that could be added in the future would be to display the results properly for the historical data feature so that users can access the results without going to the console </li>
+ 
+ 
 <h2>Deployment Process: </h2>
 <h4>For the website hosted on Github pages and the website that is hosted locally, the differences are the links to the various bootstrap CSS and Js core codes. For the locally hosted website a more specific link will be used to access the css and js core codes.
   
