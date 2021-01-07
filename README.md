@@ -28,9 +28,9 @@ daily cases or total cases of covid-19 cases in Singapore or other countries and
 
 Test | Test step | Expected Result | Actual Result | Pass/Fail |
 ------------ | ------------- | ------------- | -------------| ------------- |
-Test if user input for local storage can be displayed | Key in data in the input box and submit and check for display | Display is shown | Display is shown |pass|
+Test if user input for local storage can be displayed | Key in data in the input box and submit and check for display | Display is shown | Display is shown |Pass|
 Test if webpage is responsive when changed to mobile web version |Load webpage using a mobile phone and observe if there are any significant changes| Webpage is resized to suit mobile web users | Most of the webpage is resized properly,with a few images and input boxes that are too big that had to be resized accordingly. However for the main page when it is switched to the mobile version, the navigation bar is blocking some of the content in the carousel slider|Fail|  
-
+|Test if all the hyperlinks can be accessed, ensure that there are no dead links in the website as well|Click on every hyperlink and check if it goes to the specified location|Hyperlinks bring user to intended location|All Hyperlinks are workable and brings user to the correct location|Pass|
 
  
 <h2>Future features that could be added</h2>
