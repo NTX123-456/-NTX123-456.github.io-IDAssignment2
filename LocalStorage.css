@@ -25,4 +25,9 @@ button{
     height: 100%
   }
 }
+.cont {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
 
