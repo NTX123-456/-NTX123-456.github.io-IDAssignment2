@@ -3,10 +3,8 @@ const inpValue = document.getElementById("inpValue");
 const btnsubmit = document.getElementById("btnsubmit");
 const Output = document.getElementById("Output");
 
-localStorage.removeItem("dadadadada")
-localStorage.removeItem("dasdasdada")
-localStorage.removeItem("adads")
-localStorage.removeItem("dadadsadada")
+localstorage.remove("Jack");
+localstorage.remove("John");
 btnsubmit.onclick = function(){
     const key = inpKey.value;
     const value = inpValue.value;
