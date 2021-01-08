@@ -29,12 +29,12 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
+      <section class="container-fluid">
         <a class="navbar-brand" href="#">More Options</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <section class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item active">
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
@@ -58,15 +58,15 @@
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
-        </div>
-      </div>
+        </section>
+      </section>
     </nav>
 <main class="container">
-  <div class="starter-template text-center py-5 px-3">
+  <section class="starter-template text-center py-5 px-3">
     <h1>Other options to extract Covid-19 data</h1>
     <p class="lead">If you want to search for covid-19 regarding more than 1 country, or get a specific continent instead, you can do it here.<br> </p>
-  </div>
-  <div class="SpecificContinent">
+  </section>
+  <section class="SpecificContinent">
     <h2 style="text-align:center">Select for data on Covid-19 for specific continents (eg.Asia,North America etc)</h2>
     <h6>Press the reset button each time you have searched for a continent before searching for another continent</h6>
     Continent: <input class="cont" id="continent" value="Continent">
@@ -79,8 +79,8 @@
     <p class="critical">People who are in critical condition: </p>
     <p class="deaths">Total deaths: </p>
     <p class="recovered">Total recovered: </p>
-  </div>
-  <div class="starter-template text-center py-5 px-3">
+  </section>
+  <section class="starter-template text-center py-5 px-3">
     <h2 style="text-align:center">Select for data on Covid-19 for 2 countries. Do take note that 2 countries must be entered, not more than 2 or less than 2 (eg. Singapore,Malaysia)</h2>
     <h6>Press the reset button each time you have searched for a continent before searching for another pair of countries</h6>
     Countries: <input class="cont" id="countries" value="Countries">
@@ -96,8 +96,8 @@
     <p class="activePerOneMillion2">Total active cases per 1 Million: </p>
     <p class="cases2">Total cases: </p>
     <p class="continent2">Continent: </p>
-  </div>
-  <div class="starter-template text-center py-5 px-3">
+  </section>
+  <section class="starter-template text-center py-5 px-3">
     <h2 style="text-align:center">Select historical data for a specific country</h2>
     <h6>Press the reset button each time you have searched for a continent before searching for another country</h6>
     Country: <input class="cont" id="Historical" value="Country">
@@ -105,7 +105,7 @@
     <button id="submits3" onclick="myFunction3()">Submit</button>
     <button id="Reset3" onclick="clearBox3()">Reset</button>
     <h5>To check for the data output for historical data please inspect the page and go to the console to check for the output results</h5>
-  </div>
+  </section>
 </main><!-- /.container -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="MoreOptions.js"></script>
