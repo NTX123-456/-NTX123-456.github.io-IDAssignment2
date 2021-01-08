@@ -15,15 +15,6 @@ for (let i = 0; i< localStorage.length; i++){   /*Function that prints and displ
     const value = localStorage.getItem(key);
     Output.innerHTML += `${key}: ${value}<br/ >`;
 }
-function checkInput1(){
-if (document.getElementById("inpKey") === '' || document.getElementById("inpKey") === null) {
-            alert("Please enter a country");
-        }
-}
-function checkInput2(){
-if (document.getElementById("inpValue") === '' || document.getElementById("inpValue") === null) {
-            alert("Please enter some information");
-        }
-}  
+
 
    
