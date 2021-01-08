@@ -39,10 +39,6 @@ $.getJSON("https://corona.lmao.ninja/v2/all?yesterday",
         }
      );
 
-/*jslint indent: 4 */
-/*global plugin, data, $, i, dataLoadedEvent: true,myFunction */
-
-
 var api = "https://corona.lmao.ninja/v2/countries/";
 var apiend = "?yesterday'?yesterday=true&strict=true&query";
 var input;
