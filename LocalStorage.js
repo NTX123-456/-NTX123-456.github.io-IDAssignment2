@@ -8,10 +8,10 @@ btnsubmit.onclick = function(){
      if (key && value){
         localStorage.setItem(key,value);
         location.reload();
-     if (inpKey.value === '' || inpKey.value === null) {
+     if (inpKey === '' || inpKey === null) {
             alert("Please enter a country");
         }
-     if (inpValue.value === '' || inpValue.value === null) {
+     if (inpValue === '' || inpValue === null) {
             alert("Please enter some information");
         }
     }
