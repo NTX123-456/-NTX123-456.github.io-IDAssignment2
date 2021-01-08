@@ -34,6 +34,9 @@ function myFunction() { 'use strict';
         } else {
             console.log(input1.value);
         }
+        if (input1.value === '' || input1.value === null) {
+            alert("Please enter a continent");
+        }
     };
     request.send();
      }
@@ -77,6 +80,9 @@ function myFunction2() { 'use strict';
         } else {
             console.log(input1.value);
         }
+        if (input1.value === '' || input1.value === null) {
+            alert("Please enter two countries");
+        }
     };
     request.send();
      }
@@ -100,6 +106,9 @@ function myFunction3() { 'use strict';
             console.log(data);
         } else {
             console.log(input1.value);
+        }
+        if (input1.value === '' || input1.value === null) {
+            alert("Please enter a country");
         }
     };
     request.send();
