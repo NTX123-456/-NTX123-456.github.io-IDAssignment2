@@ -9,20 +9,21 @@ btnsubmit.onclick = function(){          /*Function that detects for user input*
         localStorage.setItem(key,value);
         location.reload();
      }
-     if (document.getElementById("inpKey") === '' || document.getElementById("inpKey") === null) {
-            alert("Please enter a country");
-        }
-     if (document.getElementById("inpValue") === '' || document.getElementById("inpValue") === null) {
-            alert("Please enter some information");
-        }
-    }
 };
 for (let i = 0; i< localStorage.length; i++){   /*Function that prints and displays user input */
     const key = localStorage.key(i);
     const value = localStorage.getItem(key);
     Output.innerHTML += `${key}: ${value}<br/ >`;
 }
-   
-   
+function checkInput1(){
+if (document.getElementById("inpKey") === '' || document.getElementById("inpKey") === null) {
+            alert("Please enter a country");
+        }
+}
+function checkInput2(){
+if (document.getElementById("inpValue") === '' || document.getElementById("inpValue") === null) {
+            alert("Please enter some information");
+        }
+}  
 
    
