@@ -85,6 +85,7 @@ function myFunction() { 'use strict';
             console.log(input1.value);
         }
     };
+    request.send();
      }
 function clearBox() {'use strict';
     document.getElementById("Reset");
