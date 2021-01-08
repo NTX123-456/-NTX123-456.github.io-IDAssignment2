@@ -2,10 +2,6 @@
 /*global $, jQuery, alert*/
 /* Initialize Jquery usage */
 /*jslint devel: true */
-
-
-
-
 $.getJSON("https://api.apify.com/v2/key-value-stores/yaPbKe9e5Et61bl7W/records/LATEST?disableRedirect=true",
      function (data) { 'use strict';
         console.log(data);
