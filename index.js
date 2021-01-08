@@ -76,8 +76,8 @@ function myFunction() { 'use strict';
         } else {
             console.log(input1.value);
         }
-        if(input1.value === "" || input1.value == null){
-        alert("Please enter a country");
+        if (input1.value === '' || input1.value === null) {
+            alert("Please enter a country");
         }
     };
     request.send();
@@ -86,9 +86,6 @@ function clearBox() {'use strict';
     document.getElementById("Reset");
     window.location.reload();
     }
-
-
-
 
 
 
