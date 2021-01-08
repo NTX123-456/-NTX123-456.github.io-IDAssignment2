@@ -8,6 +8,12 @@ btnsubmit.onclick = function(){
      if (key && value){
         localStorage.setItem(key,value);
         location.reload();
+     if (inpKey.value === '' || inpKey.value === null) {
+            alert("Please enter a country");
+        }
+     if (inpValue.value === '' || inpValue.value === null) {
+            alert("Please enter some information");
+        }
     }
 };
 for (let i = 0; i< localStorage.length; i++){
