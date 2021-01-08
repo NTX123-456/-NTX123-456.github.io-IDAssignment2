@@ -35,6 +35,7 @@ function myFunction() { 'use strict';
             console.log(input1.value);
         }
     };
+    request.send();
      }
 function clearBox() { 'use strict';
     document.getElementById("Reset");
@@ -77,6 +78,7 @@ function myFunction2() { 'use strict';
             console.log(input1.value);
         }
     };
+    request.send();
      }
 function clearBox2() { 'use strict';
     document.getElementById("Reset");
@@ -100,6 +102,7 @@ function myFunction3() { 'use strict';
             console.log(input1.value);
         }
     };
+    request.send();
     }
 function clearBox3() { 'use strict';
     document.getElementById("Reset");
