@@ -77,7 +77,7 @@ function myFunction() { 'use strict';
             console.log(input1.value);
         }
         if(input1.value === "" || input1.value == null){
-        alert("Please enter a country")
+        alert("Please enter a country");
         }
     };
     request.send();
