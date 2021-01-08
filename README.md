@@ -22,11 +22,12 @@ daily cases or total cases of covid-19 cases in Singapore or other countries and
  
 
 <h2>Test cases</h2>
-<li>1. For the Selecting Multiple countries feature, users must select 2 countries, not less, not more or else the results will not be shown</li>
-<li>2. Everytime a user has finished searching for a feature, they must reset the page using the reset button provided in order to prevent extra appending of api data to the html container </li>
+<li>For the Selecting Multiple countries feature, users must select 2 countries, not less, not more or else the results will not be shown</li>
+<li>Everytime a user has finished searching for a feature, they must reset the page using the reset button provided in order to prevent extra appending of api data to the html container </li>
 <li> For the historical data feature, to access results users have to inspect the page and go to the console and access the array to see it as the results may be too many to display properly, for example if a user searches for 30 days, it would be tedious to display all 30 days. </li>
 <li>For the search for 2 countries feature, if a user attemps to submit a blank search, there would be an accidental display for the data for the countries, Afganistan and Albania
 </li>
+<li>When a user searches for data, as the submit button is pressed the navigation bar may be shifted slightly to the top</li>
 
 Test | Test step | Expected Result | Actual Result | Pass/Fail |
 ------------ | ------------- | ------------- | -------------| ------------- |
