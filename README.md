@@ -119,6 +119,6 @@ Starter template used: https://getbootstrap.com/docs/5.0/examples/starter-templa
 <li>W3 CSS Validator: https://jigsaw.w3.org/css-validator/</li>
 <li>W3 Link Checker: https://validator.w3.org/checklink</li>
 <li>Api Validator: https://www.postman.com/</li>
-<li>https://codebeautify.org/jsvalidate</li>
+<li>Javascript Validator: https://codebeautify.org/jsvalidate</li>
 
 
