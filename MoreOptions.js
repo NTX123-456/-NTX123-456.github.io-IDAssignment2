@@ -2,11 +2,6 @@
 /*global $, jQuery, alert*/
 /* Initialize Jquery usage */
 /*jslint devel: true */
-
-
-
-
-
 function myFunction() { 'use strict';
     var request,
         input1 = document.getElementById('continent'),
