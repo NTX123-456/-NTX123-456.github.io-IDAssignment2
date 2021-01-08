@@ -110,6 +110,9 @@ function myFunction3() { 'use strict';
         if (input1.value === '' || input1.value === null) {
             alert("Please enter a country");
         }
+        if (input2.value === '' || input2.value === null) {
+            alert("Please enter a specified number of days");
+        }
     };
     request.send();
     }
