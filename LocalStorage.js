@@ -8,6 +8,7 @@ btnsubmit.onclick = function(){          /*Function that detects for user input*
      if (key && value){
         localStorage.setItem(key,value);
         location.reload();
+     }
      if (document.getElementById("inpKey") === '' || document.getElementById("inpKey") === null) {
             alert("Please enter a country");
         }
