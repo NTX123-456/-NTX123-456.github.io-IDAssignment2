@@ -40,6 +40,7 @@ Test if Javascript code contains no errors|Copy link to Javascript code in the v
  
 <h2>Future features that could be added</h2>
 <li>One feature that could be added in the future would be to display the results properly for the historical data feature so that users can access the results without going to the console </li>
+<li>Another feature I thought of adding in the future would be a online database server that connects to the website so users can leave their own comments about advices on  covid-19 or any constructive feedback. </li>
  
 <h2>Deployment Process: </h2>
 <h4>For the website hosted on Github pages and the website that is hosted locally, the differences are the links to the various bootstrap CSS and Js core codes. For the locally hosted website a more specific link will be used to access the css and js core codes.
