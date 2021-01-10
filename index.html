@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Covid-19 Information Centre</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <!-- Bootstrap core CSS -->
+    <link href="Y:\P03\s10205325\Final submission (Assignment 2)\ID_S10205325C_NgTungXuan_Assg2_website\Bootstrap core css and js\bootstrap.min.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img{
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+         
+        }
+      }
+   @media only screen and (max-width:620px) {  
+  /* For mobile phones: */
+    .mycarousel,.body,.featurette-divider,.row featurette,.navbar navbar-expand-md navbar-dark fixed-top bg-dark {
+    width:100%;
+  }
+}
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <section class="container-fluid">
+        <a class="navbar-brand" href="#">Homepage</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <section class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="Y:\P03\s10205325\Final submission (Assignment 2)\ID_S10205325C_NgTungXuan_Assg2_website\Index page\index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Y:\P03\s10205325\Final submission (Assignment 2)\ID_S10205325C_NgTungXuan_Assg2_website\MoreOptions page\MoreOptions.html">More Options</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Y:\P03\s10205325\Final submission (Assignment 2)\ID_S10205325C_NgTungXuan_Assg2_website\LocalStorage page\LocalStorage.html">Store your information about covid-19</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                <li><a class="dropdown-item" href="Y:\P03\s10205325\Final submission (Assignment 2)\ID_S10205325C_NgTungXuan_Assg2_website\Index page\index.html">Home</a></li>
+                <li><a class="dropdown-item" href="Y:\P03\s10205325\Final submission (Assignment 2)\ID_S10205325C_NgTungXuan_Assg2_website\MoreOptions page\MoreOptions.html">More Options</a></li>
+                <li><a class="dropdown-item" href="Y:\P03\s10205325\Final submission (Assignment 2)\ID_S10205325C_NgTungXuan_Assg2_website\LocalStorage page\LocalStorage.html">Share your Information</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </section>
+      </section>
+    </nav>
+</header>
+<main>
+  <section id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+    </ol>
+    <section class="carousel-inner">
+      <section class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <section class="container">
+          <section class="carousel-caption text start">
+            <h1>Latest Covid-19 updates around the world</h1>
+            <p class="affectedCountries">Number of countries currently affected by covid-19: </p>
+            <p class="cases">Total amount of covid-19 cases worldwide: </p>
+            <p class="todayCases">Cases Today: </p>
+            <p class="deaths">Total covid-19 deaths worldwide: </p>
+            <p class="todayDeaths">Deaths today: </p>
+            <p class="recovered2">Total recovered cases worldwide: </p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.worldometers.info/coronavirus/" role="button">Find out more</a></p>
+          </section>
+        </section>
+      </section>
+      <section class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <section class="container">
+          <section class="carousel-caption">
+            <h1>These are the Latest covid-19 information for singapore</h1>
+            <section class="data-container">
+              <p class="infected">Number of infected people: </p>
+              <p class="discharged">Number of discharged people: </p>
+              <p class="Facilities">Number of people infected in facilities: </p>
+              <p class="deceased">Number of people who are deceased: </p>
+              <p class="recovered">Number of people who have recovered: </p>
+              <p class="activeCases">Number of active cases: </p>
+              <p class="criticalHospitalized">People who are in critical condition: </p>
+          </section> 
+            <p><a class="learnmore" href="https://www.moh.gov.sg/covid-19" role="button">Learn more</a></p>
+          </section>
+        </section>
+      </section>
+      <section class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <section class="container">
+          <section class="carousel-caption text-end">
+            <h1>For more information regarding Covid-19</h1>
+            <p>If you are keen in finding more information on the covid-19 virus, feel free to check out this page</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.who.int/health-topics/coronavirus#tab=tab_1" role="button">Click here to find out more about covid-19</a></p>
+          </section>
+        </section>
+      </section>
+    </section>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </section>
+   <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+   <section class="container marketing">
+    <!-- Three columns of text below the carousel -->
+    <section class="row">
+      <section class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+        <image href="https://www.access-info.org/wp-content/uploads/Covid19-whistleblower-e1586178863591.png" height="140" width="140"/>
+        </svg>
+        <h2>How do we protect ourselves through covid-19?</h2>
+        <p>There many important steps that everyone must take wherever they go to limit the spread of covid-19 as much as possible. Theses steps include maintaining a 1 meter distance between others and wearing a mask whenever you are going outside of your house </p>
+        <p><a class="btn btn-secondary" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" role="button">Click here to find out more on Covid-19 preventive measures &raquo;</a></p>
+      </section><!-- /.col-lg-4 -->
+      <section class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+        <image href="https://apsic-apac.org/wp-content/uploads/2020/03/Coronavirus-CDC-645x645-statnews.jpg" height="140" width="140"/>
+        </svg>
+        <h2>Syntomps of covid-19</h2>
+        <p>Feeling sick? Worried that you might have contracted covid-19? Check out the list of syntomps that are most common among the covid-19 virus</p>
+        <p><a class="btn btn-secondary" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19#:~:text=symptoms" role="button">View details &raquo;</a></p>
+      </section><!-- /.col-lg-4 -->
+      <section class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+        <image href="data:image/jpeg;base64,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" height="140" width="140"/>
+        </svg>
+        <h2>Get the latest news of covid-19 around the world</h2>
+        <p>To get the latest news of covid-19 in the world, please visit this link</p>
+        <p><a class="btn btn-secondary" href="https://www.channelnewsasia.com/news/topics/coronavirus-covid-19?cid=cna-sghome_covid19_outbreak_desktop_11032020_cna" role="button">View details &raquo;</a></p>
+      </section><!-- /.col-lg-4 -->
+    </section><!-- /.row -->
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+    <section class="row featurette">
+      <section class="col-md-7">
+        <h2 class="featurette-heading">Find the latest data about Covid-19 in your own country  <span class="text-muted">Reset everytime you searched for a country before searching for another country.</span></h2>
+        Country: <input id="country" value="Enter your country">
+        <button id="submits" onclick="myFunction()">Submit</button>
+        <button id="Reset" onclick="clearBox()">Reset</button>
+        <p class="Search">Simply key in your country in the search bar</p>
+        <p class="population">Total Population: </p>
+        <p class="active">Number of active cases: </p>
+        <p class="activePerOneMillion">Number of active cases per 1 million: </p>
+        <p class="totalcases">Number of total cases: </p>
+        <p class="totalcasesPerOneMillion">Number of total cases per 1 million: </p>
+        <p class="critical">Number of total critical activeCases: </p>
+        <p class="deaths2">Number of total deaths: </p>
+        <p class="todayCases2">Number of cases as of today: </p>
+        <p class="todayDeaths2">Number of total deaths as of today : </p>
+      </section>
+      <section class="col-md-5">
+      </section>
+    </section>
+   <hr class="featurette-divider">
+    <section class="row featurette">
+      <section class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Learn more about why we use contact tracing <span class="text-muted">See for yourself.</span></h2>
+        <p><a class="btn btn-secondary" href="https://www.tracetogether.gov.sg/" role="button">Learn the reason why using tracetogether is important &raquo;</a></p>
+      </section>
+      <section class="col-md-5 order-md-1">
+        <svg width="300" height="300"
+        xmlns="http://www.w3.org/2000/svg">
+        <image href="https://www.tracetogether.gov.sg/img/tt-og-2.png" height="300" width="300"/>
+      </svg>
+    </section>
+  </section>
+ <hr class="featurette-divider">
+<section class="row featurette">
+    <section class="col-md-7 order-md-2">
+      <h2 class="featurette-heading">Keep up to date about the Measures placed in Singapore to cope with covid-19 <span class="text-muted">See for yourself.</span></h2>
+      <p><a class="btn btn-secondary" href="https://www.moh.gov.sg/policies-and-legislation/covid-19-(temporary-measures)-(control-order)-regulations" role="button">Click here to find out what are the measures &raquo;</a></p>
+    </section>
+    <section class="col-md-5 order-md-1">
+      <svg width="300" height="300"
+      xmlns="http://www.w3.org/2000/svg">
+      <image href="https://www.orfonline.org/wp-content/uploads/2020/04/Singapores.jpg" height="300" width="300"/>
+    </svg>
+  </section>
+</section>
+  <hr class="featurette-divider">
+  <!-- /END THE FEATURETTES -->
+</section><!-- /.container -->
+<!-- FOOTER -->
+<footer class="container">
+  <p class="float-end"><a href="#">Back to top</a></p>
+  <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
+</main>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="index.js"></script>
+ <script src="Y:\P03\s10205325\Final submission (Assignment 2)\ID_S10205325C_NgTungXuan_Assg2_website\Bootstrap core css and js\bootstrap.bundle.min.js"></script></body>
+</html>
+    
+
+
+
+
+  
+ 
+
+  
+        
+              
+    
+       
+         
+   
+     
+    
+    
+      
+        
+        
+          
+      
+        
+            
+          
+            
+            
+          
+      
+    
+      
+          
+ 
+    
+        
+
+    
+              
+
+    
+   
+    
+      
+        
+
+         
+
+
+  
+     
+
+  
+      
+
+        

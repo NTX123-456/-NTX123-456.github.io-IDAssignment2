@@ -1,0 +1,17 @@
+body {
+  padding-top: 5rem;
+  background-image: url('https://coolbackgrounds.io/images/backgrounds/index/aqua-d9b59c89.png')
+}
+.cont {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.SpecificContinent{
+   text-align:center;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+
+
