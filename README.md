@@ -38,7 +38,7 @@ Test if there are no errors in html/css codes using W3 html Validator and W3 css
 Test if Javascript code contains no errors|Copy link to Javascript code in the validator to check|Javascript code contain lesser to no errors|Many errors are surfaced within the localstorage code,I tried to fix all the errors but in the end my function ends up not working as before hence I left most of the errors unfixed for the localstorage page, however for the javascript code for both the index page and moreoptions page contains no errors. |Fail|
 Test if all features are properly functioning, check if api data is updated regularly and check if api data is displayed correctly according to user query|Input user data into features and test if the correct data is displayed and refresh page to check if data is properly updated|All features and api data is updated and displayed correctly according to user queries| All features are properly working and the correct data is displayed, api data is also updated since last checked|Pass|
 
- <h2>Future features that could be added</h2>
+<h2>Future features that could be added</h2>
 <li>One feature that could be added in the future would be to display the results properly for the historical data feature so that users can access the results without going to the console </li>
 <li>Another feature I thought of adding in the future would be a online database server that connects to the website so users can leave their own comments about advices on  covid-19 or any constructive feedback. </li>
  
